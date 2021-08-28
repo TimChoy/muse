@@ -20,7 +20,7 @@ export default class {
 
     const icons = ['🐮', '🐴', '🐄'];
 
-    const reactions = [];
+    const reactions: any[] = [];
 
     let i = 0;
     let isRemoving = false;

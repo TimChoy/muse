@@ -1,3 +1,5 @@
+/* eslint-disable complexity */
+
 import {TextChannel, Message} from 'discord.js';
 import {URL} from 'url';
 import {TYPES} from '../types';

@@ -13,7 +13,7 @@
     "dts"
   ],
   "scripts": {
-    "lint": "eslint 'src/**/*.ts'",
+    "lint": "eslint \"src/**/*\"",
     "lint-fix": "eslint 'src/**/*.ts' --fix",
     "clean": "rm -rf dist dts",
     "test": "npm run lint",
@@ -62,7 +62,7 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm test && yarn build"
+      "pre-commit": "npm test && npm run build"
     }
   },
   "dependencies": {
